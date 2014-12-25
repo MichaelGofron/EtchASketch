@@ -6,8 +6,9 @@
 $(document).ready(function(){
     for (var row = 0; row < 16; row++){
         for (var col = 0; col < 16; col++){
-            
+            $('#mainGrid').append("<div></div>"); // should append divs
         }
     }
-})
+    $("div").css("background-color","red");
+});
 
